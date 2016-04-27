@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import sideMenuSelection from './sideMenuSelection'
+import values from './values'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 
 const contactApp = combineReducers({
-  sideMenuSelection:sideMenuSelection,
-  routing: routerReducer
+  formValues:values
+  ,routing: routerReducer
 })
 
 export default contactApp

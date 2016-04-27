@@ -1,0 +1,10 @@
+android list sdk -a
+1- Android SDK Tools, revision 24.0.2
+2- Android SDK Platform-tools, revision 21
+3- Android SDK Build-tools, revision 21.1.2
+4- Android SDK Build-tools, revision 21.1.1
+5- Android SDK Build-tools, revision 21.1
+6- Android SDK Build-tools, revision 21.0.2
+7- Android SDK Build-tools, revision 21.0.1
+... and a great many more
+android update sdk -a -u -t 3

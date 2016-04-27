@@ -1,18 +1,16 @@
 
-export const editForm = (formValues) => {
- console.log('edit form',formValues)
+export const selectSideMenuItem = (itemName) => {
+ console.log('select Side Menu Item',itemName)
   return {
-    type: 'ON_CLICK_EDIT_FORM',
-    formValues:formValues,
-    step:0
+    type: 'ON_SIDE_MENU_ITEM_SELECTION',
+    itemName:itemName
   }
 }
 
-export const submitForm = (formValues) => {
- console.log('submit form',formValues)
+export const selectSideMenuSubItem = (itemName) => {
+ console.log('select Side Menu Sub Item',itemName)
   return {
-    type: 'ON_CLICK_SUBMIT_FORM',
-    formValues:formValues,
-    step:1
+    type: 'ON_SIDE_MENU_SUB_ITEM_SELECTION',
+    itemName:itemName
   }
 }

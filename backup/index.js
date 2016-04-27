@@ -5,17 +5,12 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import contactApp from './reducers'
 import App from './components/App'
-import Menu1 from './containers/Menu1'
-import Menu21 from './containers/Menu21'
-import Menu22 from './containers/Menu22'
-import Menu3 from './containers/Menu3'
-import Menu4 from './containers/Menu4'
-import Menu5 from './containers/Menu5'
+import ContactForm from './containers/ContactForm'
+import DetailsForm from './containers/DetailsForm'
 import { Router, Route, Link, browserHistory } from 'react-router'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 import { routerMiddleware, push } from 'react-router-redux'
 import { applyMiddleware } from 'redux'
-
 
 const middleware = routerMiddleware(browserHistory)
 let store = createStore(contactApp,applyMiddleware(middleware))
@@ -26,16 +21,12 @@ render(
   <Provider store={store}>
   <Router history={history}>
     <Route path='/' component={App} >
-     <Route path='Menu1' component={Menu1} />
-     <Route path='Menu21' component={Menu21} />
-     <Route path='Menu22' component={Menu22} />
-     <Route path='Menu3' component={Menu3} />
-     <Route path='Menu4' component={Menu4} />
-     <Route path='Menu5' component={Menu5} />
+     <Route path='ContactForm' component={ContactForm} />
+     <Route path='DetailsForm' component={DetailsForm} />
     </Route>
    </Router>
   </Provider>,
   document.getElementById('root')
 )
 // Dispatch from anywhere like normal.
-store.dispatch(push('/Menu1'))
+store.dispatch(push('/DetailsForm'))
