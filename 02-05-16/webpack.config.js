@@ -23,13 +23,7 @@ module.exports = {
         loaders: [ 'babel' ],
         exclude: /node_modules/,
         include: __dirname
-      },
-      { test: /\.(png|jpg)$/, loader: 'file-loader?name=images/[name].[ext]' },
-      { test: /\.svg$/,loader: 'svg-inline'},
-   {
-  test: /\.svg$/,
-  loader: 'babel!react-svg'
-}
+      }
     ]
   }
 }

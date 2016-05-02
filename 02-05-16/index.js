@@ -4,7 +4,6 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import contactApp from './reducers'
-import Login from './components/Login'
 import App from './components/App'
 import Menu1 from './containers/Menu1'
 import Menu21 from './containers/Menu21'
@@ -39,4 +38,4 @@ render(
   document.getElementById('root')
 )
 // Dispatch from anywhere like normal.
-store.dispatch(push('/'))
+store.dispatch(push('/Menu1'))
