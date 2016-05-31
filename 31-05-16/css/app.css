@@ -1,0 +1,301 @@
+.appMainWrapper {
+  padding: 0;
+  height: 1080px;
+}
+
+.appMenu {
+  width: 250px !important;
+  padding: 0;
+  margin: 0;
+  background-color: #94A1AC;
+  font-family: "Open Sans";
+}
+
+.appHeaderLogo {
+  padding: 20px 60px;
+  cursor: pointer;
+}
+
+.appSidemenuWrapper {
+  background: #343434;
+  color: #FFF;
+  height: 878px;
+}
+
+.appClientWrapper {
+  height: 62px;
+  background-color: #232323;
+  color: #ececec;
+  font-weight: 14px;
+  margin: 0;
+  padding: 12px 5px 6px 5px;
+}
+
+.padTop10 {
+  padding-top: 10px;
+}
+
+.padLeft10 {
+  padding-left: 10px;
+}
+
+.padLeft21 {
+  padding-left: 21px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.margin25 {
+  margin: 25px;
+}
+
+.appChildElement {
+  padding-top: 1.5em;
+  height: 100%;
+}
+
+.colorTeal {
+  color: #56A1F6;
+}
+:global .tealChevron .cls-1{
+  fill: #56A1F6 !important;
+}
+
+.clientName {
+  font-size: 14px;
+  color: #FFFFFF;
+  position: relative;
+    padding-left:6px;
+}
+
+.clientRole {
+  font-size: 12px;
+  color: #94A1AC;
+   padding-left:6px;
+}
+
+.sideMenu {
+  height: 500px;
+  width: 250px;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.noLeftRightPadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+:global .fullHeightWidth{
+  height:100%;
+  width:100%;
+}
+
+:global .sideMenuHeading {
+  height: 51px;
+  padding-left: 45%;
+  padding-top: 19px;
+  margin-bottom: 8px;
+}
+
+:global .subMenulist {
+  height: 51px;
+  padding-top: 15px;
+  list-style-type: none;
+  width: 250px;
+}
+
+:global .subMenulist:hover {
+  background-color: #424242;
+}
+
+:global .subMenulist li {
+  color: #94A1AC;
+}
+
+:global .subMenuSubList {
+  display: none;
+  position: absolute;
+  height: 878px;
+  background-color: #080808;
+  top: 0;
+  width: 194px;
+  left: 56px;
+}
+
+:global .subListli {
+  height: 51px;
+  list-style-type: none;
+  padding-top: 15px;
+  color: #94A1AC;
+  text-align: center;
+  cursor: pointer;
+}
+
+:global .subListli:hover {
+  background-color: #424242;
+}
+
+.ul {
+  padding: 0;
+}
+.li{
+  list-style-type: none;
+}
+
+:global .subMenuSubListBack {
+  height: 51px;
+  list-style-type: none;
+  padding-top: 15px;
+  color: #94A1AC;
+  text-align: center;
+  cursor: pointer;
+}
+
+:global .subMenuSubListBack:hover {
+  background-color: #424242;
+  color: #FFF;
+}
+
+:global .listItem {
+  padding-left: 30px;
+  color: #94A1AC;
+  cursor: pointer;
+}
+
+:global .lgListItem {
+  color: #94A1AC;
+  cursor: pointer;
+}
+
+:global .smListItem {
+  display: none;
+  color: #94A1AC;
+  cursor: pointer;
+}
+
+.brandLogo {
+  padding: 10px 60px;
+  opacity: .8;
+  background: url(/static/images/login.jpg);
+  background-size: cover;
+}
+
+.mainBody {
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 250px);
+}
+
+.normalSvg {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.normalSvg1 {
+  position: relative;
+  height: 11px;
+  width: 14px;
+}
+
+.chevdown {
+  margin-top: 15px;
+  height: 12px;
+  cursor: pointer;
+}
+
+
+
+:global .backArrow {
+  width: 15px;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+
+.arrowUp {
+  position: relative;
+  top: -17px;
+  float: right;
+  right: 3px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #333;
+}
+
+:global .clientActions {
+  display: none;
+  position: relative;
+  background: #333;
+  border: 2px solid #000;
+  width: 200px;
+  z-index: 999;
+  left: -175px;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.action {
+  list-style-type: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #FFF;
+}
+
+.action:hover {
+  background-color: #56A1F6;
+}
+
+.action1 {
+  display: none;
+}
+
+
+@media (max-width: 1026px) {
+  .appMenu {
+    width: 190px !important;
+  }
+  .clientName {
+    font-size: 13px;
+    top: 8px;
+  }
+  .clientRole {
+    display: none;
+  }
+  .sideMenuHeading {
+    padding-left: 35%;
+  }
+  .subMenulist {
+    width: 190px;
+  }
+  :global .subMenuSubList {
+    width: 190px;
+    left: 0;
+  }
+  :global .subListli {
+    width: 190px;
+  }
+  :global .subMenuSubListBack {
+    text-align: left;
+    padding-left: 22px;
+  }
+  .clientActions {
+    width: 160px;
+    left: -135px;
+  }
+  .action1 {
+    display: block;
+    color:#000;
+  }
+}
+
+
