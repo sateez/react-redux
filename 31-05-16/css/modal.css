@@ -3,6 +3,16 @@
  height:100% !important;
  padding: 0 !important;
  margin:0 !important;
+ overflow:hidden;
+}
+:global .modal-content{
+ overflow-x:hidden;
+ overflow-y:auto;
+ height:100%;
+}
+:global .modal-body{
+	margin-top:20px;
+	display:table;
 }
 .database {
     top: 15px;
@@ -12,4 +22,49 @@
     position: relative;
     height: 20px;
     width: 20px;
+}
+:global .nav-navigation {
+	margin-top:50px;
+}
+:global .navigation-duplicate {
+	display:none;
+	float:left;
+	position:relative;
+	left:-100px;
+}
+:global .navigation-duplicate li{
+	float:left;
+	padding-left:30px;
+	padding-right:30px;
+	display:inline;
+}
+:global .nav-navigation li{
+	font-size:16px;
+	font-weight:400;
+	float: left;
+	padding-bottom:16px ;
+	padding-left:35px;
+	padding-right:35px;
+	margin:5px;
+	color:#6C6F74;
+}
+:global .nav-navigation li.active{
+	border-bottom: solid 4px #56A1E6;
+	color:#56A1F6;
+}
+:global ul.nav.navigation{
+	margin-left:100px;
+}
+:global .modal-header{
+	position:fixed;
+	top:1px;
+	width:100%;
+}
+:global #scrollbar-progress{
+	border-bottom:4px solid #56A1E6;
+	width:0;
+	display: none;
+	top:53px;
+	position:relative;
+	left:-10px;
 }
