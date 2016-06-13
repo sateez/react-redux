@@ -1,0 +1,11 @@
+.ul {
+  padding: 0;
+}
+.li{
+  list-style-type: none;
+}
+.normalSvg {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}

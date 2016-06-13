@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.39 89.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+    </style>
+  </defs>
+  <title>PMS-Vector-Icons</title>
+  <g>
+    <path class="cls-1" d="M44.69,44.69A22.35,22.35,0,1,0,22.35,22.35,22.37,22.37,0,0,0,44.69,44.69Z"/>
+    <path class="cls-1" d="M44.69,50.28C18.38,50.28,0,64.06,0,83.8v5.59H89.39V83.8C89.39,64.06,71,50.28,44.69,50.28Z"/>
+  </g>
+</svg>

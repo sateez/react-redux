@@ -1,0 +1,13 @@
+html,body,#root{
+	height:100%;
+	width:100%;
+	padding:0 !important;
+	font-family:'Open Sans' !important;
+}
+.cls-1{
+	fill:#DBDBDB;
+}
+*{
+	font-weight:400;
+}
+
