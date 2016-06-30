@@ -1,0 +1,6 @@
+:root{
+    --formcontrolwidth:var(--formcontrolWidth);
+    --primarycolor:var(--primaryColor);
+    --secondarycolor:var(--secondaryColor);
+    --backgroundcolor:var(--backgroundColor);
+}

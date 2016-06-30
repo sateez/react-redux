@@ -1,0 +1,58 @@
+// style changes for checkboxed
+.checkbox label:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr{
+    color:$primary-300;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: .5em;
+}
+
+
+.checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: 13px;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+
+
+.checkbox label input[type="checkbox"]{
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon{
+    opacity: 0;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon {
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr{
+ // opacity: .5;
+ color:$aux-100;
+}
+
+@media screen and (max-width: $media-break-point) {
+ .checkbox .cr{
+     color:$primary-300;
+     width: 18px;
+     height: 18px;
+ }
+ .checkbox .cr .cr-icon {
+     font-size: 10px;
+     left: 25%;
+ }
+ }

@@ -1,0 +1,14 @@
+@import "_theme-alerts";
+@import "_theme-buttons";
+@import "_theme-checkbox";
+@import "_theme-input-groups";
+@import "_theme-list-group";
+@import "_theme-navs";
+@import "_theme-panels";
+@import "_theme-radio";
+:root {
+  --formcontrolWidth: 250px;
+  --primaryColor: $aux-100;
+  --secondaryColor: $primary-300;
+  --backgroundColor: #ffffff;
+}

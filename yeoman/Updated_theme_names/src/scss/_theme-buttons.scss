@@ -1,0 +1,75 @@
+// style changes for button
+// // bootstrap-sass-3.3.6\assets\stylesheets\bootstrap\_buttons.scss
+.btn {
+  padding-left: 35px;
+  padding-right: 35px;
+  & > svg {
+    .cls-1 {
+      fill: #fff;
+    }
+  }
+}
+.btn-lg {
+  height: 54px;
+  & > svg {
+    height: 18px;
+    width: 18px;
+  }
+}
+.btn-sm {
+  height: 45px;
+  & > svg {
+    height: 12px;
+    width: 12px;
+  }
+}
+.btn-xs {
+  height: 35px;
+  & > svg {
+    height: 12px;
+    width: 12px;
+  }
+}
+.icon-btn {
+  cursor: pointer;
+  & > svg {
+    height: 12px;
+    width: 12px;
+    .cls-1 {
+      fill: #4A75AB;
+    }
+  }
+  & > label {
+    padding-left: 5px;
+    color: #4A75AB;
+  }
+}
+$btn-option-color: $btn-default-color;
+$btn-option-bg: $btn-default-bg;
+$btn-option-border: $btn-default-border;
+.btn-option {
+  @include button-variant($btn-option-color, $btn-option-bg, $btn-option-border);
+  &.active,
+  &:active {
+    background-image: none;
+    outline: thin dotted;
+    color: white !important;
+    background-color: #3A3A3A !important;
+  }
+}
+.btn {
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    @include opacity(.65);
+    @include box-shadow(none);
+    color: #979797;
+    background-color: $disabled-300;
+    &:focus,
+    &:hover {
+      color: #979797;
+      background-color: $disabled-300;
+    }
+  }
+}
