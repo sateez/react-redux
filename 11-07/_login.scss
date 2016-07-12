@@ -1,0 +1,71 @@
+body {
+  background-image: url("/assets/images/background.jpg");
+  background-size: cover;
+}
+
+.login {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 330px;
+  height: 55%;
+}
+
+.login .logo-container {
+  background-image: url("/assets/images/logo_WA.png");
+  margin: auto auto 65px;
+  width: 160px;
+  height: 190px;
+}
+.input-group-addon{
+  background: transparent;
+  border:none;
+    border-bottom: 1px solid #696969;
+  svg{
+    height:18px;
+    width:18px;
+  }
+  
+}
+input[type=text].form-control,input[type=password].form-control{
+  text-align:center;
+  padding-right:50px;
+}
+input[type=text].form-control,input[type=password].form-control{
+  text-align:center;
+  padding-right:50px;
+  &:active,
+  &:focus{
+    border-bottom: 1px solid #696969;
+  }
+}
+.signinBtn{
+  font-weight:normal;
+  margin-top:56px;
+}
+.loginIcon{
+  position:relative;
+  top:2px;
+  left:-13px;
+}
+.input-group-addon svg .cls-1{
+  fill:#FFFFFF;
+}
+@media screen and (max-width: 1024px) {
+  .login .logo-container {
+  margin: auto auto 50px;
+}
+.signinBtn{
+  margin-top:40px;
+}
+.input-group-addon{
+  svg{
+    height:13px;
+    width:13px;
+  }
+  
+}
+}
