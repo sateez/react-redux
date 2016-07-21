@@ -1,0 +1,19 @@
+Login Changes:
+
+1. Could you nest any login specific css classes under the ".login" class?
+2. Could you remove any images that aren't needed for the login page?
+
+Latest Login Folder was added.
+
+Component Changes:
+
+1. Remove that Transition effect from components.
+2. in input Hotel name should go up when click on it. 
+(http://tympanus.net/Development/TextInputEffects/ )- Hoshi transition without the bottom border filling up. Just change from one color to the next.
+3. Add drop down when with out any text.
+4. The Tick symbol pls use SVG.
+5. That panel headers shouldn't be upper case and font must be as per spec (18px)
+REQUESTING CODE SETTINGS
+
+6. Change those general setup and under line colors.
+7. in alert that tick should be in center.

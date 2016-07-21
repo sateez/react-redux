@@ -1,0 +1,318 @@
+html {
+  height: 100%;
+}
+
+#app {
+  @extend .container;
+}
+
+#scrollIndicator {
+  width: 0;
+  display: none;
+  border: 3px solid $primary-300;
+  position: relative;
+  top: 1px;
+  max-width: 100%;
+}
+
+#scrollIndicator.fixedTop {
+  top: 90px;
+}
+
+.modal-content {
+  height: 100%;
+  overflow: auto;
+
+  .margin-top-105 {
+    overflow: auto;
+    height: 90%;
+  }
+}
+
+.sidemenu {
+  margin-top: 258px;
+}
+
+.sidemenu.fixedTop {
+  position: fixed;
+  margin-top: 125px;
+}
+
+.navbar {
+  width: calc(100% - 18px);
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar-collapse.collapse.fixedTop {
+    position: absolute;
+    left: 5%;
+    top: 2px;
+  }
+}
+
+.navbar-collapse {
+  width: 100%;
+}
+
+.navbar-header {
+  width: 100%;
+  padding: 46px 43px 45px 108px;
+
+  .navbar-toggle {
+    .centerHeader {
+      color: $primary-300;
+      position: absolute;
+      left: 30px;
+      top: 8px;
+      white-space: nowrap;
+      display: none;
+    }
+  }
+
+  .navbar-brand {
+    .checkIcon {
+      display: none;
+      fill: $neutral-100;
+    }
+
+    .databaseIcon {
+      height: 21px;
+      width: 21px;
+
+      .cls-1 {
+        fill: $neutral-100;
+      }
+    }
+
+    .closeIcon {
+      float: right;
+      padding: 0 3px;
+      fill: $neutral-100;
+      position: relative;
+      top: 1px;
+
+      polygon {
+        height: 18px;
+        width: 18px;
+      }
+    }
+
+    .saveIcon {
+      float: right;
+      padding: 0 3px;
+
+      .cls-1 {
+        fill: $success-300;
+        height: 14px;
+        width: 14px;
+      }
+    }
+
+    .rightHeader {
+      float: right;
+      padding: 0 78px 0 3px;
+      color: $success-300;
+      font-size: 15px;
+    }
+  }
+
+  .header {
+    color: $neutral-700;
+    position: relative;
+    top: -1px;
+    padding-left: 14px;
+    font-size: 22px;
+  }
+}
+
+.navbar-header.fixedTop {
+  padding: 24px 0 21px 28px;
+}
+
+.svg {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+
+svg {
+  height: 20px;
+  width: 20px;
+  fill: $aux-100;
+
+  .cls-1 {
+    fill: $aux-100;
+  }
+}
+
+.margin-top-105 {
+  padding-top: 270px;
+}
+
+.margin-top-105.fixedTop {
+  padding-top: 140px;
+}
+
+.close-wrapper {
+  top: -35px;
+  position: relative;
+  z-index: 1100;
+  right: 2%;
+}
+
+.modal-dialog.modal-fullscreen {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+.navbar-nav {
+  padding: 0 50px 0 158px;
+
+  li {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    a {
+      padding-bottom: 19px;
+      font-size: 16px;
+      font-weight: bold;
+      color: $neutral-300;
+
+      &:hover {
+        color: $neutral-800 !important;
+      }
+    }
+  }
+}
+
+.navbar-nav.fixedTop {
+  padding: 24px 50px 0 120px;
+}
+
+ul.nav.navbar-nav > li.active > a {
+  background: $navbar-inverse-bg;
+  color: $primary-300;
+
+  &:focus,
+  &:hover {
+    background: $navbar-inverse-bg;
+    color: $primary-300;
+  }
+}
+
+ul.nav.navbar-nav > li.active > a:hover {
+  color: $primary-200;
+}
+
+.listIcon {
+  top: -3px;
+  position: relative;
+}
+@media (max-width: 1440px) {
+  .navbar-nav {
+    li {
+      padding-left: 12px;
+      padding-right: 12px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .checkIcon {
+    display: none;
+    fill: $neutral-100;
+  }
+
+  .navbar-header > .navbar-toggle {
+    float: left;
+    position: relative;
+    left: 35%;
+  }
+
+  ul.nav.navbar-nav > li {
+    display: inline-block;
+  }
+
+  .navbar-nav {
+    li {
+      padding-left: 8px;
+      padding-right: 7px;
+
+      a {
+        padding-left: 8px;
+        padding-right: 7px;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .navbar {
+    width: calc(100% - 18px);
+  }
+
+  .checkIcon {
+    display: block;
+  }
+
+  .close-wrapper {
+    right: 5px;
+  }
+
+  .navbar-header {
+    padding: 0 50px 0 68px;
+
+    .navbar-brand {
+      .closeIcon > polygon {
+        height: 14px;
+        width: 14px;
+      }
+
+      .rightHeader {
+        padding-right: 58px;
+      }
+    }
+
+    .centerHeader {
+      display: block;
+    }
+  }
+
+  .databaseIcon {
+    height: 17px;
+    width: 17px;
+
+    .cls-1 {
+      fill: $neutral-100;
+    }
+  }
+
+  .navbar-header {
+    .header {
+      font-size: 18px;
+      top: -3px;
+    }
+  }
+
+  .navbar-nav {
+    padding: 0 50px 0 67px;
+
+    li {
+      padding-left: 8px;
+      padding-right: 7px;
+
+      a {
+        padding-bottom: 17px;
+        font-size: 13px;
+      }
+    }
+  }
+}
