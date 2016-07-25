@@ -1,0 +1,1 @@
+var database = require('svg-sprite!./database.svg');

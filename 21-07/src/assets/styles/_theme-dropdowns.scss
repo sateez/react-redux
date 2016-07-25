@@ -1,0 +1,59 @@
+// style changes for dropdowns
+
+.dropdown-wrapper {
+  margin-top: 30px;
+  width: 300px;
+
+  .chevdown {
+    float: right;
+    margin-top: 15px;
+    height: 9px !important;
+    width: 13px !important;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    right: 20%;
+    fill: $primary-300;
+  }
+}
+
+.dropdown {
+  width: 90%;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-toggle {
+  width: 100%;
+  min-width: 225px;
+  padding: 0;
+
+  > span:nth-child(1) {
+    float: left;
+    padding-left: 10px;
+    color: $aux-400;
+  }
+
+  > span:nth-child(2) {
+    float: right;
+    padding-right: 20px;
+  }
+  border-radius: 0;
+  height: 40px;
+  background-color: transparent !important;
+}
+@media screen and (max-width: $media-break-point) {
+  .dropdown-wrapper {
+    margin-top: 24px;
+
+    .chevdown {
+      top: -2px;
+    }
+  }
+
+  .dropdown-toggle {
+    height: 29px;
+  }
+}
