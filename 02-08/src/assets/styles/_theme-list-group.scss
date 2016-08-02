@@ -1,0 +1,14 @@
+// style changes for lists
+// // bootstrap-sass-3.3.6\assets\stylesheets\bootstrap\_list-groups.scss
+
+.list-group-item {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: $aux-400;
+  font-size: 13px;
+
+  &:first-child {
+    margin-top: 32px;
+  }
+}

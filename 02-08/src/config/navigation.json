@@ -1,0 +1,197 @@
+{
+  "mainMenu": [
+    {
+      "name": "GENERAL SETUP",
+      "url": "/generalsetup",
+      "class": "active",
+      "eventKey": "mm1",
+      "sideMenu": [
+        {
+          "name": "PROPERTY DEFAULTS",
+          "eventKey": "sm1",
+          "subCategories": [
+            {
+              "name": "preferences",
+              "eventKey": "p1"
+            },
+            {
+              "name": "local info",
+              "eventKey": "p2"
+            },
+            {
+              "name": "front desk",
+              "eventKey": "p3"
+            },
+            {
+              "name": "front desk notification",
+              "eventKey": "p4"
+            }
+          ]
+        },
+        {
+          "name": "RESERVATIONS",
+          "eventKey": "sm2",
+          "subCategories": [
+            {
+              "name": "rate plan group",
+              "eventKey": "r1"
+            },
+            {
+              "name": "group settings",
+              "eventKey": "r2"
+            }
+          ]
+        },
+        {
+          "name": "RECEIPT SETUP",
+          "eventKey": "sm3",
+          "subCategories": [
+            {
+              "name": "printing options",
+              "eventKey": "rs1"
+            },
+            {
+              "name": "official reports",
+              "eventKey": "rs2"
+            },
+            {
+              "name": "information bills",
+              "eventKey": "rs3"
+            },
+            {
+              "name": "duplicate",
+              "eventKey": "rs4"
+            },
+            {
+              "name": "printer settings",
+              "eventKey": "rs5"
+            }
+          ]
+        },
+        {
+          "name": "GUEST RECEIPT MESSAGES",
+          "eventKey": "sm4",
+          "subCategories": []
+        },
+        {
+          "name": "REQUEST CODES",
+          "eventKey": "sm5",
+          "subCategories": []
+        },
+        {
+          "name": "CURRENCY",
+          "eventKey": "sm6",
+          "subCategories": []
+        }
+      ]
+    },
+    {
+      "name": "ROOMS",
+      "url": "/rooms",
+      "class": "",
+      "eventKey": "mm2",
+      "sideMenu": [
+        {
+          "name": "LOUNGE",
+          "eventKey": "rsm1",
+          "subCategories": [
+            {
+              "name": "bill desk",
+              "eventKey": "bd1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HOUSEKEEPING",
+      "url": "/housekeeping",
+      "class": "",
+      "eventKey": "mm3",
+      "sideMenu": [
+        {
+          "name": "MAINTAINANCE",
+          "eventKey": "hsm1",
+          "subCategories": [
+            {
+              "name": "service team",
+              "eventKey": "hssm1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "POSTING",
+      "url": "/posting",
+      "class": "",
+      "eventKey": "mm4",
+      "sideMenu": [
+        {
+          "name": "MANAGEMENT",
+          "eventKey": "psm1",
+          "subCategories": [
+            {
+              "name": "levels",
+              "eventKey": "pssm1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ACCOUNTS RECEIVABLE",
+      "url": "/accountsreceivable",
+      "class": "",
+      "eventKey": "mm5",
+      "sideMenu": [
+        {
+          "name": "ACCOUNTS",
+          "eventKey": "asm1",
+          "subCategories": [
+            {
+              "name": "type of accounts",
+              "eventKey": "assm1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "REPORTS",
+      "url": "/reports",
+      "class": "",
+      "eventKey": "mm6",
+      "sideMenu": [
+        {
+          "name": "REPORTS",
+          "eventKey": "resm1",
+          "subCategories": [
+            {
+              "name": "type of reports",
+              "eventKey": "ressm1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "USER SETUP",
+      "url": "/usersetup",
+      "class": "",
+      "eventKey": "mm7",
+      "sideMenu": [
+        {
+          "name": "USERS",
+          "eventKey": "usm1",
+          "subCategories": [
+            {
+              "name": "type of users",
+              "eventKey": "ussm1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
