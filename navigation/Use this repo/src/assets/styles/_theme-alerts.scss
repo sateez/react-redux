@@ -1,0 +1,36 @@
+// style changes for alert
+// bootstrap-sass-3.3.6\assets\stylesheets\bootstrap\_alerts.scss
+
+.alert-save {
+  width: 200px;
+  height: 175px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999;
+  border-radius: 10px;
+  color: $neutral-100;
+  background-color: $aux-900;
+  opacity: 0.93;
+  box-shadow: 0 3px 7px 0 #000;
+  font-size: 20px;
+  text-align: center;
+
+  .close {
+    color: $neutral-100;
+  }
+
+  .alert-heading {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 22px;
+    margin-left: 32px;
+    margin-top: 15px;
+    fill: $success-300;
+  }
+
+  .message {
+    text-align: center;
+    white-space: nowrap;
+  }
+}

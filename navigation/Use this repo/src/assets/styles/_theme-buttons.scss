@@ -1,0 +1,88 @@
+// style changes for button
+// // bootstrap-sass-3.3.6\assets\stylesheets\bootstrap\_buttons.scss
+
+.btn {
+  padding-left: 35px;
+  padding-right: 35px;
+
+  & > svg {
+    .cls-1 {
+      fill: $neutral-100;
+    }
+  }
+}
+
+.btn-lg {
+  height: 54px;
+
+  & > svg {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.btn-sm {
+  height: 45px;
+
+  & > svg {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+.btn-xs {
+  height: 35px;
+
+  & > svg {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+.icon-btn {
+  cursor: pointer;
+
+  & > svg {
+    height: 12px;
+    width: 12px;
+
+    .cls-1 {
+      fill: $neutral-400;
+    }
+  }
+
+  & > label {
+    padding-left: 5px;
+    color: $neutral-400;
+  }
+}
+
+.btn-option {
+  @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+
+  &.active,
+  &:active {
+    background-image: none;
+    outline: thin dotted;
+    color: $neutral-100 !important;
+    background-color: $aux-650 !important;
+  }
+}
+
+.btn {
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    @include opacity(.65);
+    @include box-shadow(none);
+    color: $neutral-200;
+    background-color: $disabled-300;
+
+    &:focus,
+    &:hover {
+      color: $neutral-200;
+      background-color: $disabled-300;
+    }
+  }
+}

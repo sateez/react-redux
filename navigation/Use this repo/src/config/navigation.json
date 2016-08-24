@@ -1,0 +1,145 @@
+[
+  {
+    "name": "GENERAL SETUP",
+    "url": "/general-setup",
+    "subNav": [
+      {
+        "name": "PROPERTY DEFAULTS",
+        "url": "/property-defaults",
+        "sections": [
+          {
+            "name": "preferences"
+          }, {
+            "name": "local info"
+          }, {
+            "name": "front desk"
+          }, {
+            "name": "front desk notification"
+          }
+        ]
+      }, {
+        "name": "RESERVATIONS",
+        "url": "/reservations",
+        "sections": [
+          {
+            "name": "rate plan group"
+          }, {
+            "name": "group settings"
+          }
+        ]
+      }, {
+        "name": "RECEIPT SETUP",
+        "url": "/receipt-setup",
+        "sections": [
+          {
+            "name": "printing options"
+          }, {
+            "name": "official reports"
+          }, {
+            "name": "information bills"
+          }, {
+            "name": "duplicate"
+          }, {
+            "name": "printer settings"
+          }
+        ]
+      }, {
+        "name": "GUEST RECEIPT MESSAGES",
+        "url": "/guest-receipt-messages",
+        "sections": []
+      }, {
+        "name": "REQUEST CODES",
+        "url": "/request-codes",
+        "sections": []
+      }, {
+        "name": "CURRENCY",
+        "url": "/currency",
+        "sections": []
+      }
+    ]
+  }, {
+    "name": "ROOMS",
+    "url": "/rooms",
+    "subNav": [
+      {
+        "name": "LOUNGE",
+        "url": "/lounge",
+        "sections": [
+          {
+            "name": "bill desk"
+          }
+        ]
+      }
+    ]
+  }, {
+    "name": "HOUSEKEEPING",
+    "url": "/housekeeping",
+    "subNav": [
+      {
+        "name": "MAINTENANCE",
+        "url": "/maintenance",
+        "sections": [
+          {
+            "name": "service team"
+          }
+        ]
+      }
+    ]
+  }, {
+    "name": "POSTING",
+    "url": "/posting",
+    "subNav": [
+      {
+        "name": "MANAGEMENT",
+        "url": "/management",
+        "sections": [
+          {
+            "name": "levels"
+          }
+        ]
+      }
+    ]
+  }, {
+    "name": "ACCOUNTS RECEIVABLE",
+    "url": "/accounts-receivable",
+    "subNav": [
+      {
+        "name": "ACCOUNTS",
+        "url": "/accounts",
+        "sections": [
+          {
+            "name": "type of accounts"
+          }
+        ]
+      }
+    ]
+  }, {
+    "name": "REPORTS",
+    "url": "/reports",
+    "subNav": [
+      {
+        "name": "REPORTS",
+        "url": "/reports",
+        "sections": [
+          {
+            "name": "type of reports"
+          }
+        ]
+      }
+    ]
+  }, {
+    "name": "USER SETUP",
+    "url": "/user-setup",
+    "subNav": [
+      {
+        "name": "USERS",
+        "url": "/users",
+        "sections": [
+          {
+            "name": "type of users"
+          }
+        ]
+      }
+    ]
+  }
+]
