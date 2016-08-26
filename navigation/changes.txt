@@ -1,0 +1,7 @@
+1. console warng
+2. remove 2nd auto-affix
+3.rename sidemenu to side-menu and affixed-side-menu to fixed-side-menu
+4. remove sidename class from nav tag in renderSubNav()
+5. check affix position at the bottom scroll ( as saw)
+6. autoaffix offsetTop automatically.
+7. optional console warnning reason
