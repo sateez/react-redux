@@ -1,0 +1,5 @@
+1.hidden and show in scss for headernav to match specs
+2. write 2 renderfunctions , rendertopleft
+3.navbar-collopase--get rid of 'in'
+4.Scrollingprogressbar working 
+5.scss lo proper nesting.
