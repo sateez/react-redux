@@ -3,3 +3,8 @@
 3.navbar-collopase--get rid of 'in'
 4.Scrollingprogressbar working 
 5.scss lo proper nesting.
+
+
+npm install bootstrap-loader@1.0.10
+
+npm install webpack-dev-server@1.14.1

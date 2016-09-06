@@ -1,0 +1,5 @@
+1. use these repos and add latest code into these.
+2. rename functions to handle-prefix names (like handleAffixed)
+3. remove document,event and window usages
+4. use more routes approch remove json list( he said this by referring to our mainlayout code)
+5. once cross check with specs especially on drop-downs , spacing from back button to secondary nav elements.
