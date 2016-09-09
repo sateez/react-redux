@@ -1,0 +1,35 @@
+// bootstrap-sass-3.3.6\assets\stylesheets\bootstrap\_tables.scss
+
+.table {
+    > tbody > tr {
+        font-size: 13px;
+        color: $aux-800;
+    }
+}
+
+.table-striped {
+    > tbody > tr {
+        background-color: $structure-200;
+    }
+
+    > thead > tr > th {
+        height: 60px;
+        vertical-align: middle;
+        font-size: 11px;
+        color: $aux-200;
+    }
+
+    > tbody > tr > td {
+        vertical-align: middle;
+    }
+
+    > tbody > tr:nth-of-type(odd) {
+        background-color: rgba(71, 75, 81,0.25);
+    }
+}
+
+.table-hover {
+    > tbody > tr:hover {
+        background-color: rgba(162, 195, 234, 0.35);
+    }
+}

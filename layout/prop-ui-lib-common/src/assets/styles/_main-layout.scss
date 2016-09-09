@@ -1,0 +1,495 @@
+@import '_theme_variables';
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.data-area {
+  width: calc(100% - 250px);
+  float: left;
+  height: 1074px;
+}
+
+.navigation {
+  float: left;
+
+  .navigation-wrapper {
+    height: 1074px;
+    background-color: $aux-600;
+
+    .navigation-icon-wrapper {
+      height: 134px;
+      background-image: url('../images/logoImage.jpg');
+
+      .navigation-icon {
+        height: 94px;
+        width: 79px;
+        position: relative;
+        top: 20px;
+        left: 86px;
+        background-image: url('../images/logo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .navigation-roles-wrapper {
+      padding-top: 12px;
+      height: 62px;
+      background-color: $aux-800;
+
+      .roles-wrapper {
+        float: left;
+        width: 200px;
+        padding-left: 21px;
+
+        .user-name {
+          color: $neutral-100;
+          font-size: 14px;
+        }
+
+        .user-role {
+          font-size: 12px;
+          font-weight: 600px;
+          color: #94A1AC;
+        }
+      }
+
+      .roles-menu {
+        float: left;
+        width: 50px;
+        padding-right: 24px;
+        height: 50px;
+
+        .dropdown-wrapper {
+          width: 20px;
+          top: 10px;
+          position: relative;
+
+          .chevdown {
+            .cls-1 {
+              fill: $primary-300;
+            }
+          }
+
+          .dropdown {
+            .dropdown-toggle {
+              top: -20px;
+              position: relative;
+              padding: 0;
+              height: 20px;
+              display: block;
+              width: 20px;
+              border: none;
+              box-shadow: none;
+              background: transparent;
+            }
+
+            .arrow-up {
+              width: 0;
+              height: 0;
+              border-left: 8px solid transparent;
+              border-right: 8px solid transparent;
+              border-bottom: 8px solid #4c5059;
+              position: absolute;
+              top: -8px;
+              right: 0;
+            }
+
+            .dropdown-menu {
+              top: 16px;
+              left: inherit;
+              right: 0;
+              background: $aux-400;
+
+              li {
+                background: transparent;
+
+                a {
+                  color: #94A1AC;
+                }
+
+                &:hover {
+                  a {
+                    background: $primary-300;
+                    color: $neutral-100;
+                    font-size: 12px;
+                  }
+                }
+              }
+
+              .front-desk-item {
+                display: none;
+              }
+
+              li.active {
+                a {
+                  color: $neutral-100;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .navigation-toggle-wrapper {
+      width: 250px;
+      height: 878px;
+      background-color: $aux-600;
+      overflow: hidden;
+
+      .navigation-toggle-header {
+        height: 70px;
+        padding-top: 19px;
+        padding-bottom: 39px;
+        border-top: 1px solid #3A3D44;
+
+        .list-icon {
+          height: 11px;
+          width: 13px;
+          position: relative;
+          left: 120px;
+
+          .cls-1 {
+            fill: #94A1AC;
+          }
+        }
+      }
+
+      .nav {
+        .primary-list-item {
+          height: 51px;
+          background-color: $aux-600;
+          white-space: nowrap;
+          color: $neutral-100;
+          outline-width: 0;
+          padding-top: 18px;
+
+          a {
+            color: #94A1AC;
+            text-decoration: none;
+          }
+
+          &:hover {
+            background-color: $aux-400;
+
+            a {
+              color: $neutral-100;
+
+              .primary-list-item-icon {
+                color: $primary-300;
+              }
+            }
+          }
+        }
+
+        .primary-list-item-icon {
+          height: 16px;
+          width: 14px;
+          margin-left: 40px;
+          margin-right: 29px;
+
+          .cls-1 {
+            fill: #94A1AC;
+          }
+        }
+
+        .nav {
+          width: 0;
+          position: absolute;
+          top: 196px;
+          height: 878px;
+          left: 250px;
+          background-color: $aux-700;
+          z-index: 1;
+
+          .back-btn-wrapper {
+            width: 0;
+            padding-bottom: 24px;
+            overflow: hidden;
+
+            .selected-icon {
+              display: none;
+            }
+
+            .back-icon {
+              height: 11px;
+              width: 13px;
+              position: relative;
+              left: 29px;
+              cursor: pointer;
+
+              .cls-1 {
+                fill: #C6C6C6;
+              }
+            }
+
+            .back-btn {
+              font-size: 12px;
+              position: relative;
+              left: 36px;
+              color: #C6C6C6;
+              padding-bottom: 24px;
+              cursor: pointer;
+            }
+
+            &:hover {
+              .back-icon {
+                .cls-1 {
+                  fill: $neutral-100;
+                }
+              }
+
+              .back-btn {
+                color: $neutral-100;
+              }
+            }
+          }
+
+          .secondary-list-item {
+            overflow: hidden;
+            width: 0;
+            font-size: 12px;
+            padding-left: 13px;
+            color: #C6C6C6;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            background-color: transparent;
+
+            a {
+              width: 0;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              padding-top: 0;
+              padding-bottom: 0;
+              color: #C6C6C6;
+              background-color: transparent;
+
+              &:hover {
+                color: $primary-300;
+              }
+            }
+          }
+        }
+
+        .nav.active {
+          left: 56px;
+          width: 194px;
+          padding-top: 20px;
+
+          .back-btn-wrapper {
+            width: inherit;
+          }
+
+          .secondary-list-item {
+            width: 194px;
+
+            a {
+              width: 150px;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+    }
+
+    .navigation-toggle-wrapper.toggled-secondary-navigation {
+      .navigation-toggle-header {
+        .list-icon {
+          left: 21px;
+        }
+      }
+
+      .nav {
+        .primary-list-item {
+          .primary-list-item-icon {
+            margin-left: 21px;
+          }
+        }
+
+        :hover {
+          background: $primary-300;
+
+          .primary-list-item {
+            .primary-list-item-icon {
+              color: $neutral-100;
+            }
+          }
+
+          .nav.active {
+            background: $aux-700;
+
+            .back-btn-wrapper {
+              background: $aux-700;
+
+              .back-icon {
+                background: $aux-700;
+              }
+
+              .back-btn {
+                background: $aux-700;
+              }
+            }
+
+            .secondary-list-item {
+              background: $aux-700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: $media-min-break-point) {
+  .data-area {
+    width: calc(100% - 190px);
+  }
+
+  .navigation {
+    width: 190px;
+
+    .navigation-wrapper {
+      height: 1074px;
+
+      .navigation-icon-wrapper {
+        height: 143px;
+
+        .navigation-icon {
+          height: 99px;
+          width: 79px;
+          top: 22px;
+          left: 53px;
+        }
+      }
+
+      .navigation-roles-wrapper {
+        .roles-wrapper {
+          float: left;
+          width: 160px;
+          padding-left: 21px;
+
+          .user-name {
+            color: $neutral-100;
+            font-size: 14px;
+            top: 10px;
+            position: relative;
+          }
+
+          .user-role {
+            display: none;
+            font-size: 12px;
+            font-weight: 600px;
+            color: #94A1AC;
+          }
+        }
+
+        .roles-menu {
+          width: 30px;
+          padding-right: 9px;
+
+          .dropdown-wrapper {
+            width: 13px;
+            top: 9px;
+
+            .chevdown {
+              position: relative;
+              left: 5px;
+            }
+
+            .dropdown {
+              .dropdown-menu {
+                top: 15px;
+
+                .front-desk-item {
+                  display: block;
+
+                  a {
+                    color: $gray-base;
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .navigation-toggle-wrapper {
+        width: 190px;
+
+        .navigation-toggle-header {
+          height: 45px;
+          padding-top: 11px;
+          padding-bottom: 15px;
+
+          .list-icon {
+            left: 95px;
+          }
+        }
+
+        .nav {
+          .primary-list-item {
+            height: 52px;
+          }
+
+          .primary-list-item-icon {
+            height: 18px;
+            width: 18px;
+            margin-left: 24px;
+            margin-right: 21px;
+          }
+
+          .nav {
+            top: 205px;
+            left: 190px;
+
+            .back-btn-wrapper {
+              .back-icon {
+                height: 7px;
+                width: 10px;
+                left: 25px;
+              }
+
+              .back-btn {
+                left: 35px;
+                padding-bottom: 24px;
+              }
+
+              .selected-icon {
+                display: block;
+                width: 10px;
+                height: 11px;
+                position: relative;
+                left: 150px;
+                color: $primary-300;
+                float: left;
+              }
+            }
+
+            .secondary-list-item {
+              padding-left: 10px;
+              padding-top: 16px;
+              padding-bottom: 16px;
+            }
+          }
+
+          .nav.active {
+            left: 0;
+            width: 190px;
+
+            .secondary-list-item {
+              width: 190px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

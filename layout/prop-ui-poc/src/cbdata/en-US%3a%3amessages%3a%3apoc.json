@@ -1,0 +1,14 @@
+{
+  "itemId": "poc",
+  "locale": "en-US",
+  "type": "messages",
+  "messages": {
+    "aboutTitle": "About Component",
+    "common1": "common1",
+    "common2": "common2",
+    "key1": "value 1",
+    "key2": "value 2",
+    "key3": "value 3",
+    "mainTitle": "Main Component"
+  }
+}
