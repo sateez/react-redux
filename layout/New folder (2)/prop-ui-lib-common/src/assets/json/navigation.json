@@ -1,0 +1,250 @@
+{
+  "rolesMenu": [
+    {
+      "name": "Front Desk Associate",
+      "eventKey": "rm0"
+    },
+    {
+      "name": "User Settings",
+      "eventKey": "rm1"
+    },
+    {
+      "name": "DB Maintainance",
+      "eventKey": "rm2"
+    },
+    {
+      "name": "Logout",
+      "eventKey": "rm3"
+    }
+  ],
+  "navigation": [
+    {
+      "name": "Main Nav 1",
+      "url": "/pn1",
+      "logo": "pencil",
+      "eventKey": "pn1",
+      "subNavigation": [
+        {
+          "name": "Secondary Nav 1-1",
+          "url": "/pn1sn1",
+          "eventKey": "pn1sn1"
+        },
+        {
+          "name": "Secondary Nav 1-2",
+          "url": "/pn1sn2",
+          "eventKey": "pn1sn2"
+        },
+        {
+          "name": "Secondary Nav 1-3",
+          "url": "/pn1sn3",
+          "eventKey": "pn1sn3"
+        },
+        {
+          "name": "Secondary Nav 1-4",
+          "url": "/pn1sn4",
+          "eventKey": "pn1sn4"
+        },
+        {
+          "name": "Secondary Nav 1-5",
+          "url": "/pn1sn5",
+          "eventKey": "pn1sn5"
+        },
+        {
+          "name": "Secondary Nav 1-6",
+          "url": "/pn1sn6",
+          "eventKey": "pn1sn6"
+        }
+      ]
+    },
+    {
+      "name": "Main Nav 2",
+      "url": "/pn2",
+      "logo": "envelope",
+      "eventKey": "pn2",
+      "subNavigation": [
+        {
+          "name": "Secondary Nav 2-1",
+          "url": "/pn2sn1",
+          "eventKey": "pn2sn1"
+        },
+        {
+          "name": "Secondary Nav 2-2",
+          "url": "/pn2sn2",
+          "eventKey": "pn2sn2"
+        },
+        {
+          "name": "Secondary Nav 2-3",
+          "url": "/pn2sn3",
+          "eventKey": "pn2sn3"
+        },
+        {
+          "name": "Secondary Nav 2-4",
+          "url": "/pn2sn4",
+          "eventKey": "pn2sn4"
+        },
+        {
+          "name": "Secondary Nav 2-5",
+          "url": "/pn2sn5",
+          "eventKey": "pn2sn5"
+        },
+        {
+          "name": "Secondary Nav 2-6",
+          "url": "/pn2sn6",
+          "eventKey": "pn2sn6"
+        }
+      ]
+    },
+    {
+      "name": "Main Nav 3",
+      "url": "/pn3",
+      "logo": "cloud",
+      "eventKey": "pn3",
+      "subNavigation": [
+        {
+          "name": "Secondary Nav 3-1",
+          "url": "/pn3sn1",
+          "eventKey": "pn3sn1"
+        },
+        {
+          "name": "Secondary Nav 3-2",
+          "url": "/pn3sn2",
+          "eventKey": "pn3sn2"
+        },
+        {
+          "name": "Secondary Nav 3-3",
+          "url": "/pn3sn3",
+          "eventKey": "pn3sn3"
+        },
+        {
+          "name": "Secondary Nav 3-4",
+          "url": "/pn3sn4",
+          "eventKey": "pn3sn4"
+        },
+        {
+          "name": "Secondary Nav 3-5",
+          "url": "/pn3sn5",
+          "eventKey": "pn3sn5"
+        },
+        {
+          "name": "Secondary Nav 3-6",
+          "url": "/pn3sn6",
+          "eventKey": "pn3sn6"
+        }
+      ]
+    },
+    {
+      "name": "Main Nav 4",
+      "url": "/pn4",
+      "logo": "minus",
+      "eventKey": "pn4",
+      "subNavigation": [
+        {
+          "name": "Secondary Nav 4-1",
+          "url": "/pn4sn1",
+          "eventKey": "pn4sn1"
+        },
+        {
+          "name": "Secondary Nav 4-2",
+          "url": "/pn4sn2",
+          "eventKey": "pn4sn2"
+        },
+        {
+          "name": "Secondary Nav 4-3",
+          "url": "/pn4sn3",
+          "eventKey": "pn4sn3"
+        },
+        {
+          "name": "Secondary Nav 4-4",
+          "url": "/pn4sn4",
+          "eventKey": "pn4sn4"
+        },
+        {
+          "name": "Secondary Nav 4-5",
+          "url": "/pn4sn5",
+          "eventKey": "pn4sn5"
+        },
+        {
+          "name": "Secondary Nav 4-6",
+          "url": "/pn4sn6",
+          "eventKey": "pn4sn6"
+        }
+      ]
+    },
+    {
+      "name": "Main Nav 5",
+      "url": "/pn5",
+      "logo": "asterisk",
+      "eventKey": "pn5",
+      "subNavigation": [
+        {
+          "name": "Secondary Nav 5-1",
+          "url": "/pn5sn1",
+          "eventKey": "pn5sn1"
+        },
+        {
+          "name": "Secondary Nav 5-2",
+          "url": "/pn5sn2",
+          "eventKey": "pn5sn2"
+        },
+        {
+          "name": "Secondary Nav 5-3",
+          "url": "/pn5sn3",
+          "eventKey": "pn5sn3"
+        },
+        {
+          "name": "Secondary Nav 5-4",
+          "url": "/pn5sn4",
+          "eventKey": "pn5sn4"
+        },
+        {
+          "name": "Secondary Nav 5-5",
+          "url": "/pn5sn5",
+          "eventKey": "pn5sn5"
+        },
+        {
+          "name": "Secondary Nav 5-6",
+          "url": "/pn5sn6",
+          "eventKey": "pn5sn6"
+        }
+      ]
+    },
+    {
+      "name": "Main Nav 6",
+      "url": "/pn6",
+      "logo": "user",
+      "eventKey": "pn6",
+      "subNavigation": [
+        {
+          "name": "Secondary Nav 6-1",
+          "url": "/pn6sn1",
+          "eventKey": "pn6sn1"
+        },
+        {
+          "name": "Secondary Nav 6-2",
+          "url": "/pn6sn2",
+          "eventKey": "pn6sn2"
+        },
+        {
+          "name": "Secondary Nav 6-3",
+          "url": "/pn6sn3",
+          "eventKey": "pn6sn3"
+        },
+        {
+          "name": "Secondary Nav 6-4",
+          "url": "/pn6sn4",
+          "eventKey": "pn6sn4"
+        },
+        {
+          "name": "Secondary Nav 6-5",
+          "url": "/pn6sn5",
+          "eventKey": "pn6sn5"
+        },
+        {
+          "name": "Secondary Nav 6-6",
+          "url": "/pn6sn6",
+          "eventKey": "pn6sn6"
+        }
+      ]
+    }
+  ]
+}
