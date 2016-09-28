@@ -1,0 +1,165 @@
+//newly added variables
+$data-table-box-shadow: #CCCCCC;
+$data-table-font: #555555;
+$data-table-header-font: #777777;
+$data-table-header-border: #dc007a;
+
+.grid-container {
+  background: $structure-200;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px $data-table-box-shadow;
+
+  .react-grid-Toolbar {
+    background-color: $structure-200;
+  }
+
+  .grid-header {
+    .grid-left-header {
+      float: left;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 15px;
+      text-transform: capitalize;
+      color: $data-table-font;
+
+      .bottom-line {
+        border-bottom: 3px solid $data-table-header-border;
+        width: 15px;
+        margin: 13px 0;
+      }
+    }
+
+    .grid-right-header {
+      float: right;
+      padding: 15px;
+      font-size: 11px;
+      text-transform: capitalize;
+      color: $data-table-header-font;
+
+      i {
+        padding: 6px;
+      }
+    }
+  }
+
+  .grid-area {
+    height: 480px;
+
+    .react-grid-Container {
+      padding: 0 30px 30px;
+
+      .react-grid-Main {
+        outline: none;
+
+        .react-grid-Grid {
+          border: none;
+
+          .react-grid-Header {
+            background: $structure-200;
+
+            .react-grid-HeaderCell {
+              border: none;
+              background: $structure-200;
+              padding-left: 0;
+
+              .react-grid-checkbox-container {
+                padding: 0;
+                text-align: right;
+                padding-right: 1px;
+              }
+
+              .form-group {
+                margin-top: 0;
+
+                .form-control {
+                  border: 1px solid $data-table-box-shadow;
+                  background: $neutral-100;
+                }
+              }
+
+              .react-grid-HeaderCell-sortable,
+              .widget-HeaderCell__value {
+                border-left: 1px solid $data-table-box-shadow;
+                color: $aux-200;
+                font-weight: 600;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding-left: 20px;
+
+                :nth-child(1) {
+                  border-left: none;
+                }
+              }
+            }
+          }
+
+          .react-grid-Viewport {
+            border-top: 1px solid $data-table-box-shadow;
+
+            .react-grid-Canvas {
+              background: $structure-200;
+              width: 1080px !important;
+
+              .react-grid-Row {
+                height: 50px !important;
+
+                .react-grid-Cell {
+                  border: none;
+                  padding-left: 20px;
+                  padding-top: 20px;
+                  padding-bottom: 19px;
+                  background: $structure-200;
+                  color: $aux-800;
+                  font-size: 13px;
+                  font-weight: 600;
+                  height: 50px !important;
+
+                  .rdg-row-index {
+                    display: none !important;
+                  }
+
+                  .rdg-actions-checkbox {
+                    display: block !important;
+                  }
+                }
+              }
+
+              .react-grid-Row--odd.react-grid-Row {
+                .react-grid-Cell {
+                  background: rgb(195, 200, 206);
+                }
+              }
+              // .alternate-row {
+              //   .react-grid-Row {
+              //     .react-grid-Cell {
+              //       background: rgba(162, 195, 234, .35);
+              //     }
+              //   }
+              // }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .grid-footer {
+    .grid-footer-indicators {
+      float: right;
+      padding-right: 30px;
+      margin-top: -10px;
+
+      svg {
+        margin: 6px;
+        height: 15px;
+        width: 15px;
+        fill: $state-info-text;
+
+        .cls-1 {
+          fill: $state-info-text;
+        }
+      }
+    }
+  }
+}
